@@ -1,7 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;700&family=Noto+Sans:wght@300;400;700&display=swap");
 body {
+  font-family: "Noto Sans Thai", sans-serif;
   margin-top: 20px;
   background: #eee;
-  font-family: "Poppins", serif;
   font-weight: 300;
   font-style: normal;
 }
@@ -15,13 +16,13 @@ a {
 }
 
 #th-name {
-  font-family: "IBM Plex Sans Thai", serif;
+  font-family: "Noto Sans Thai", sans-serif;
   font-weight: 600;
   font-style: normal;
 }
 #th-id {
+  font-family: "Noto Sans Thai", sans-serif;
   font-size: 16px;
-  font-family: "IBM Plex Sans Thai", serif;
   font-weight: 300;
   font-style: normal;
 }
@@ -167,4 +168,78 @@ h5 {
 
 .mb-30 {
   margin-bottom: 30px;
+}
+
+.container.mt-5 {
+  padding: 30px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h3.top-sep {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.list-unstyled li {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.list-group-item {
+  padding: 24px;
+  font-size: 18px;
+  line-height: 1.6;
+  background-color: transparent; /* ลบสีพื้นหลังของ list */
+  border: none; /* เอาเส้นขอบออก */
+}
+
+h2.fw-bold {
+  font-size: 28px;
+  color: #333;
+}
+
+.text-muted {
+  font-size: 18px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pain-point-description {
+  text-indent: 2em; /* ขยับบรรทัดแรกเข้าไป 2 เท่าของตัวอักษร */
+}
+.function-description {
+  text-indent: 2em; /* ขยับบรรทัดแรกเข้าไป 2 เท่าของตัวอักษร */
+}
+
+.custom-list {
+  list-style-type: disc; /* เพิ่มจุดนำหน้า */
+  padding-left: 20px; /* ขยับข้อความให้สมดุลกับจุด */
+}
+
+.custom-list .list-group-item {
+  border: none; /* เอาเส้นขอบออก */
+  background: transparent; /* ลบพื้นหลัง */
+  padding-left: 10px; /* ปรับระยะห่างให้สวยขึ้น */
+}
+
+.container.mt-5 img {
+  width: 100%;
+  height: 100%;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container img {
+  max-width: 60%;
+  height: auto;
 }
